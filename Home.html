@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="VN-vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Trang chủ</title>
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/owl.carousel.min.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/owl.theme.default.min.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/slider-pro.min.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap-datetimepicker.min.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/jquery.smartmenus.bootstrap-4.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/sm-core-css.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/animate.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/ionicons.min.css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/TrangChu.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/main.css"/>
+    </head>
+    <body>
+        <!-- Start Header Section  -->
+        <header class="header">
+            <div class="menu-bar">
+                <div class="container">
+                    <nav class="contra-nav" role="navigation">
+                        <input id="main-menu-state" type="checkbox" style="display: none"/>
+                        <label class="main-menu-btn" for="main-menu-state" style="display: none">
+                                <span class="main-menu-btn-icon"></span> Toggle main menu visibility
+                        </label>
+                        <div class="nav-brand">
+                                <a class="logo" href="#"><img alt="Cổng TTĐT Du Lịch Quảng Nam" src="./images/logo_dulichQN.png" class="img-responsive"></a>
+                        </div>
+                        <ul id="main-menu" class="sm sm-blue">
+                                <li class="active"><a href="#" class="current ">Trang chủ</a></li>
+                                <li><a href="#" class="">Tin tức - Sự kiện</a>
+                                    <ul>
+                                        <li><a href="#" class="">Tin tức</a></li>
+                                        <li><a href="#" class="">Sự kiện nổi bật</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="">Điểm du lịch</a>
+                                    <ul>
+                                        <li><a href="#" class="">Thiên nhiên</a></li>
+                                        <li><a href="#" class="">Văn hóa</a></li>
+                                        <li><a href="#" class="">Du lịch nông nghiệp</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="">Tour du lịch</a>
+                                    <ul>
+                                        <li><a href="#" class="">Chương trình Tour</a></li>
+                                        <li><a href="#" class="">Danh sách lữ hành</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="">Lưu trú</a>
+                                    <ul>
+                                        <li><a href="#" class="">Khách sạn 5 sao</a></li>
+                                        <li><a href="#" class="">Khách sạn 4 sao</a></li>
+                                        <li><a href="#" class="">Khách sạn 3 sao</a></li>
+                                        <li><a href="#" class="">Khách sạn 2 sao</a></li>
+                                        <li><a href="#" class="">Khách sạn 1 sao</a></li>
+                                        <li><a href="#" class="">Khách sạn đạt chuẩn</a></li>
+                                        <li><a href="#" class="">Homestay/Villa</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="">Ẩm thực</a>
+                                    <ul>
+                                        <li><a href="#" class="">Món ngon</a></li>
+                                        <li><a href="#" class="">Danh sách nhà hàng</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="">Mua sắm</a>
+                                    <ul>
+                                        <li><a href="#" class="">Đặc sản</a></li>
+                                        <li><a href="#" class="">Thủ công mỹ nghệ</a></li>
+                                        <li><a href="#" class="">May đo</a></li>
+                                        <li><a href="#" class="">Giày dép, đồ da</a></li>
+                                        <li><a href="#" class="">Hàng lưu niệm</a></li>
+                                        <li><a href="#" class="">Tranh nghệ thuật, tranh thêu</a></li>
+                                        <li><a href="#" class="">Chợ</a></li>
+                                        <li><a href="#" class="">Trung tâm mua sắm</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="">Di chuyển</a>
+                                    <ul>
+                                        <li><a href="#" class="">Taxi</a></li>
+                                        <li><a href="#" class="">Trạm xe buýt</a></li>
+                                        <li><a href="#" class="">Nhà xe</a></li>
+                                        <li><a href="#" class="">Phòng vé máy bay</a></li>
+                                        <li><a href="#" class="">Đường sắt</a></li>
+                                        <li><a href="#" class="">Thuê xe ô tô</a></li>
+                                        <li><a href="#" class="">Bến xe</a></li>
+                                        <li><a href="#" class="">Thuê xe máy</a></li>
+                                        <li><a href="#" class="">Bãi đỗ xe</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="">Giải trí</a>
+                                    <ul>
+                                        <li><a href="#" class="">Nghệ thuật biểu diễn</a></li>
+                                        <li><a href="#" class="">Vui chơi giải trí</a></li>
+                                        <li><a href="#" class="">Golf</a></li>
+                                        <li><a href="#" class="">Thể thao biển</a></li>
+                                        <li><a href="#" class="">Spa</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="">Tiện ích</a>
+                                    <ul>
+                                        <li><a href="#" class="">Tiện ích</a>
+                                            <ul>
+                                                <li><a href="#" class="">Nhà vệ sinh công cộng</a></li>
+                                                <li><a href="#" class="">Bưu điện</a></li>
+                                                <li><a href="#" class="">Công an</a></li>
+                                                <li><a href="#" class="">Dịch vụ ngân hàng</a></li>
+                                                <li><a href="#" class="">Y tế</a></li>
+                                                <li><a href="#" class="">Xăng dầu</a></li>
+                                                <li><a href="#" class="">Di chuyển</a></li>
+                                                <li><a href="#" class="">Trung tâm hỗ trợ du khách</a></li>
+                                                <li><a href="#" class="">Wifi</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" class="">Biểu đồ</a></li>
+                                    </ul>
+                                </li>
+                        </ul>
+                        <div class="nav-action">
+                                <!-- <div class="search-nav">
+                                    <a data-toggle="modal" data-target="#searchModal" href="#"><img src="/icons/search.png" alt="Tìm kiếm"></a>
+                                </div> -->
+                                <div class="user-nav">
+                                    <a data-toggle="modal" data-target="#loginModal" href="#"><img src="./icons/user.png" alt="Tìm kiếm"></a>
+                                </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- End Header Section  -->
+
+        <!-- Start Slider Section  -->
+        <section class="Slider-banner">
+        <div class="slide-areas">
+            <!-- Start Main Slider -->
+            <div id="owl-slideQC" class="owl-carousel owl-theme news_list owl-loaded owl-drag">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage">
+                        <div class="owl-item">
+                            <div class="item">
+                                <div class="overlay"></div>
+                                <div class="img-bg">
+                                    <img src="/images/PhoCoHoiAn.png" alt="Phố Cổ Hội An">
+                                    <div class="content-news">
+                                        <div class="container-content">
+                                            <a class="news_link" href="#">Phố cổ Hội An</a>
+                                            <div class="new_summary">
+                                                <span class="new_summary">
+                                                    Hội An là một thành phố trực thuộc tỉnh Quảng Nam, Việt Nam. Phố cổ Hội An từng là một thương cảng quốc tế sầm uất, gồm những di sản kiến trúc đã có từ hàng trăm năm trước, được UNESCO công nhận là di sản văn hóa thế giới từ năm 1999. 
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="item">
+                                <div class="overlay"></div>
+                                <div class="img-bg">
+                                    <img src="/images/SongHoaiHoiAn.png" alt="Sông Hoài Hội An">
+                                    <div class="content-news">
+                                            <div class="container-content">
+                                                <a class="news_link" href="#">Sông Hoài Hội An</a>
+                                                <div class="new_summary">
+                                                    <span class="new_summary">
+                                                        Sông Hoài là một nhánh của sông Thu Bồn chảy qua Hội An. Với người dân nơi đây nói riêng và du khách nói chung, con sông này như biểu tượng không thể tách rời của phố cổ. Không chỉ vậy, dòng sông nhỏ hiền hòa này còn gắn liền với cuộc sống mưu sinh của dân cư phố Hội. Nghề chính của họ là chèo thuyền, đưa khách du lịch tham quan.
+                                                    </span>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="item">
+                                <div class="overlay"></div>
+                                <div class="img-bg">
+                                    <img src="/images/CuLaoCham.png" alt="Cù Lao Chàm">
+                                    <div class="content-news">
+                                            <div class="container-content">
+                                                <a class="news_link" href="#">Cù Lao Chàm</a>
+                                                <div class="new_summary">
+                                                    <span class="new_summary">
+                                                        Cù Lao Chàm là một cụm đảo gồm 8 hòn đảo nhỏ, thuộc địa phận xã Tân Hiệp, thành phố Hội An, tỉnh Quảng Nam. Cách trung tâm phố cổ tầm 23km (gồm 15km đường thủy và 8km đường bộ). Nơi đây hấp dẫn du khách với cảnh sắc thiên nhiên hoang sơ, không khí trong lành, những bãi biển trong xanh và cả hệ san hô rực rỡ, đa dạng.
+                                                    </span>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="item">
+                                <div class="overlay"></div>
+                                <div class="img-bg">
+                                    <img src="/images/RungDuaBayMau.png" alt="Rừng Dừa Bảy Mẫu">
+                                    <div class="content-news">
+                                            <div class="container-content">
+                                                <a class="news_link" href="#">Rừng dừa Bảy Mẫu</a>
+                                                <div class="new_summary">
+                                                    <span class="new_summary">
+                                                        Theo lời kể của người dân địa phương, rừng dừa Cẩm Thanh đã có từ cách đây khoảng 200 năm. Lúc bấy giờ, người di cư từ miền Tây Nam Bộ mang theo giống dừa nước và trồng ở khu vực này. Nhờ hợp nước, hợp đất, cây dần sinh sôi, phát triển thành cả một khu rừng rộng lớn khoảng 7 mẫu (7 ha). Cái tên rừng dừa Bảy Mẫu cũng có từ đó (mặc dù hiện nay rừng dừa có diện tích lên đến 100 ha).
+                                                    </span>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Main Slider -->
+
+            <!-- Start Slider section function -->
+            <div class="slide-function">
+                <div class="function">
+                    <div class="timer">
+                        <i class="clock-time"></i>
+                        <span id="time-date"></span>
+                    </div>
+                    <div class="weather dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                            <i class="weather-icon"></i>
+                            <span>Thời tiết</span>
+                        </a>
+                        <div class="dropdown-menu" id="weather-container" aria-labelledby="dropdownMenuLink">
+                            <!--Begin thoitiet.vn Weather Widget -->
+                            <iframe src="https://thoitiet.vn/embed/lzmhwrubyp?days=3&hC=%23F2726A&hB=%23fff&tC=%2333396D&bC=%23fff&lC=%23ECECEC" id="widgeturl" width="100%" height="297" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>                        </div>
+                    </div>
+                    <div class="money-exchange dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                            <i class="money-icon"></i>
+                            <span>Tỷ giá ngoại tệ</span>
+                        </a>
+                        <div class="dropdown-menu" id="exchange-rates-container" aria-labelledby="dropdownMenuLink">
+                            <!--Begin Money Exchange Widget -->
+                            <table>
+                                <tbody><tr>
+                                    <th>Ngoại tệ</th>
+                                    <th>Mua</th>
+                                    <th>Bán</th>
+                                </tr>
+                                    <tr>
+                                        <td title="AUSTRALIAN DOLLAR">AUD</td>
+                                        <td>16.312</td>
+                                        <td>17.006</td>
+                                    </tr>
+                                    <tr>
+                                        <td title="CANADIAN DOLLAR">CAD</td>
+                                        <td>18.190</td>
+                                        <td>18.964</td>
+                                    </tr>
+                                    <tr>
+                                        <td title="SWISS FRANC">CHF</td>
+                                        <td>25.590</td>
+                                        <td>26.679</td>
+                                    </tr>
+                                    <tr>
+                                        <td title="YUAN RENMINBI">CNY</td>
+                                        <td>3.436</td>
+                                        <td>3.583</td>
+                                    </tr>
+                                    <tr>
+                                        <td title="DANISH KRONE">DKK</td>
+                                        <td>00</td>
+                                        <td>3.523</td>
+                                    </tr>
+                                    <tr>
+                                        <td title="EURO">EUR</td>
+                                        <td>25.053</td>
+                                        <td>26.453</td>
+                                    </tr>
+                                    <tr>
+                                        <td title="POUND STERLING">GBP</td>
+                                        <td>28.669</td>
+                                        <td>29.889</td>
+                                    </tr>
+                                    <tr>
+                                        <td title="HONGKONG DOLLAR">HKD</td>
+                                        <td>3.088</td>
+                                        <td>3.220</td>
+                                    </tr>
+                                    <tr>
+                                        <td title="INDIAN RUPEE">INR</td>
+                                        <td>00</td>
+                                        <td>317</td>
+                                    </tr>
+                                    <tr>
+                                        <td title="YEN">JPY</td>
+                                        <td>172</td>
+                                        <td>182</td>
+                                    </tr>
+                                    <tr>
+                                        <td title="KOREAN WON">KRW</td>
+                                        <td>16</td>
+                                        <td>20</td>
+                                    </tr>
+                                    <tr>
+                                        <td title="KUWAITI DINAR">KWD</td>
+                                        <td>00</td>
+                                        <td>83.501</td>
+                                    </tr>
+                                    <tr>
+                                        <td title="MALAYSIAN RINGGIT">MYR</td>
+                                        <td>00</td>
+                                        <td>5.551</td>
+                                    </tr>
+                                    <tr>
+                                        <td title="NORWEGIAN KRONER">NOK</td>
+                                        <td>00</td>
+                                        <td>2.533</td>
+                                    </tr>
+                                    <tr>
+                                        <td title="RUSSIAN RUBLE">RUB</td>
+                                        <td>00</td>
+                                        <td>432</td>
+                                    </tr>
+                                    <tr>
+                                        <td title="SAUDI RIAL">SAR</td>
+                                        <td>00</td>
+                                        <td>6.842</td>
+                                    </tr>
+                                    <tr>
+                                        <td title="SWEDISH KRONA">SEK</td>
+                                        <td>00</td>
+                                        <td>2.420</td>
+                                    </tr>
+                                    <tr>
+                                        <td title="SINGAPORE DOLLAR">SGD</td>
+                                        <td>17.623</td>
+                                        <td>18.373</td>
+                                    </tr>
+                                    <tr>
+                                        <td title="THAILAND BAHT">THB</td>
+                                        <td>614</td>
+                                        <td>709</td>
+                                    </tr>
+                                    <tr>
+                                        <td title="US DOLLAR">USD</td>
+                                        <td>24.580</td>
+                                        <td>24.860</td>
+                                    </tr>
+                            </tbody></table>                            
+                            <!-- End Widget -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- End Slider Section  -->
+
+        <!-- Begin Event Section  -->
+        <section class="section-event">
+            <div class="container">
+                <div class="event">
+                    <h1 class="event-title">Sự kiện du lịch</h1>
+                    <div class="main-event-container">
+                        <div id="owl-slideMainEvent" class="owl-carousel owl-theme news_list owl-loaded owl-drag">
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage">
+                                    <div class="owl-item">
+                                        <div class="main-event item">
+                                            <div class="row">
+                                                <div class="main-event-banner col-md-6">
+                                                    <a class="main-event-link"><img src="/images/DenLongViet.png" class="main-event-img"></a>
+                                                </div>
+                                                <div class="main-event-content col-md-6">
+                                                    <div class="main-event-title">
+                                                        <a href="#">Sự kiện “Nét hoa Nghề Hội An” vinh danh nghề truyền thống - sáng tạo hướng tới tương lai</a>
+                                                    </div>
+                                                    <div class="main-event-date">
+                                                        <span>15/07/2022 - 17/07/2022</span>
+                                                    </div>
+                                                    <div class="main-event-address">
+                                                        <span>Công viên Đồng Hiệp, thành phố Hội An</span>
+                                                    </div>
+                                                    <div class="main-event-countdown">
+                                                        <div class="divlock" data-countdown='11/26/2022 08:00:00 '></div>
+                                                    </div>
+                                                    <div class="main-event-detail">
+                                                        <div class="btn-event">                                        
+                                                            <a class="event-details" href="#" target="_blank"><span>Xem chi tiết</span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item">
+                                        <div class="main-event item">
+                                            <div class="row">
+                                                <div class="main-event-banner col-md-6">
+                                                    <a class="main-event-link"><img src="/images/DenLongViet.png" class="main-event-img"></a>
+                                                </div>
+                                                <div class="main-event-content col-md-6">
+                                                    <div class="main-event-title">
+                                                        <a href="#">Sự kiện “Nét hoa Nghề Hội An” vinh danh nghề truyền thống- sáng tạo hướng tới tương lai</a>
+                                                    </div>
+                                                    <div class="main-event-date">
+                                                        <span>15/07/2022 - 17/07/2022</span>
+                                                    </div>
+                                                    <div class="main-event-address">
+                                                        <span>Công viên Đồng Hiệp, thành phố Hội An</span>
+                                                    </div>
+                                                    <div class="main-event-countdown">
+                                                        <div class="divlock" data-countdown='11/26/2022 08:00:00 '></div>
+                                                    </div>
+                                                    <div class="main-event-detail">
+                                                        <div class="btn-event">                                        
+                                                            <a class="event-details" href="https://khamphahue.com.vn/Hue-24h/Su-kien/mlid/b86f2387-973f-ed11-bd92-8867271c7fdf" target="_blank"><span>Xem chi tiết</span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item">
+                                        <div class="main-event item">
+                                            <div class="row">
+                                                <div class="main-event-banner col-md-6">
+                                                    <a class="main-event-link"><img src="/images/DenLongViet.png" class="main-event-img"></a>
+                                                </div>
+                                                <div class="main-event-content col-md-6">
+                                                    <div class="main-event-title">
+                                                        <a href="#">Sự kiện “Nét hoa Nghề Hội An” vinh danh nghề truyền thống- sáng tạo hướng tới tương lai</a>
+                                                    </div>
+                                                    <div class="main-event-date">
+                                                        <span>15/07/2022 - 17/07/2022</span>
+                                                    </div>
+                                                    <div class="main-event-address">
+                                                        <span>Công viên Đồng Hiệp, thành phố Hội An</span>
+                                                    </div>
+                                                    <div class="main-event-countdown">
+                                                        <div class="divlock" data-countdown='11/26/2022 08:00:00 '></div>
+                                                    </div>
+                                                    <div class="main-event-detail">
+                                                        <div class="btn-event">                                        
+                                                            <a class="event-details" href="https://khamphahue.com.vn/Hue-24h/Su-kien/mlid/b86f2387-973f-ed11-bd92-8867271c7fdf" target="_blank"><span>Xem chi tiết</span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-event-container">
+                        <div class="other-event">Sự kiện khác</div>
+                        <div id="owl-slideSubEvent" class="owl-carousel owl-theme news_list owl-loaded owl-drag">
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage">
+                                    <div class="owl-item">
+                                        <div class="sub-event item">
+                                            <div class="sub-event">
+                                                <div class="sub-event-banner">
+                                                    <a href="#"><img src="/images/FesBienHoiAn.png"></a>
+                                                    <span class="Coming-soon">Sự kiện sắp diễn ra</span>
+                                                </div>
+                                                <div class="sub-event-content">
+                                                    <div class="sub-event-title">
+                                                        <a href="#" class="sub-event-link"><span>Festival biển “Hội An - cảm xúc mùa hè”</span></a>
+                                                    </div>
+                                                    <div class="sub-event-date">
+                                                        <span>04/06/2022 - 31/07/2022</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item">
+                                        <div class="main-event item">
+                                            <div class="sub-event">
+                                                <div class="sub-event-banner">
+                                                    <a href="#"><img src="/images/GiaoLuuVanHoa.png"></a>
+                                                    <span class="Coming-soon">Sự kiện sắp diễn ra</span>
+                                                </div>
+                                                <div class="sub-event-content">
+                                                    <div class="sub-event-title">
+                                                        <a href="#" class="sub-event-link"><span>Chương trình “Giao lưu văn hóa Hội An - Nhật Bản lần thứ 18, năm 2022”</span></a>
+                                                    </div>
+                                                    <div class="sub-event-date">
+                                                        <span>26/08/2022 - 28/08/2022</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item">
+                                        <div class="main-event item">
+                                            <div class="sub-event">
+                                                <div class="sub-event-banner">
+                                                    <a href="#"><img src="/images/DuLichQuocGia.png"></a>
+                                                    <span class="On-going">Sự kiện đang diễn ra</span>
+                                                </div>
+                                                <div class="sub-event-content">
+                                                    <div class="sub-event-title">
+                                                        <a href="#" class="sub-event-link"><span>Các hoạt động chào mừng lễ khai mạc “Năm du lịch quốc gia – Quảng Nam 2022”</span></a>
+                                                    </div>
+                                                    <div class="sub-event-date">
+                                                        <span>15/07/2022 - 17/07/2022</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item">
+                                        <div class="main-event item">
+                                            <div class="sub-event">
+                                                <div class="sub-event-banner">
+                                                    <a href="#"><img src="/images/HoiAnDenLong.png"></a>
+                                                    <span class="Expired">Sự kiện đã diễn ra</span>
+                                                </div>
+                                                <div class="sub-event-content">
+                                                    <div class="sub-event-title">
+                                                        <a href="#" class="sub-event-link"><span>Hội An tổ chức cuộc thi chế tác đèn lồng</span></a>
+                                                    </div>
+                                                    <div class="sub-event-date">
+                                                        <span>24/12/2021 - 21/12/2021</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item">
+                                        <div class="main-event item">
+                                            <div class="sub-event">
+                                                <div class="sub-event-banner">
+                                                    <a href="#"><img src="/images//HoiAnDenLong.png"></a>
+                                                    <span class="Expired">Sự kiện đã diễn ra</span>
+                                                </div>
+                                                <div class="sub-event-content">
+                                                    <div class="sub-event-title">
+                                                        <a href="#" class="sub-event-link"><span>Hội An tổ chức cuộc thi chế tác đèn lồng</span></a>
+                                                    </div>
+                                                    <div class="sub-event-date">
+                                                        <span>24/12/2021 - 21/12/2021</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Event Section  -->
+
+        <!-- Begin Explore Section  -->
+        <section class="section-explore">
+            <div class="container">
+                <div class="explore-title">
+                    <h1>Khám phá <span class="text-bold">Quảng Nam</span></h1>
+                </div>
+                <div class="explore-content">
+                    <div class="explore-content-container">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item active">
+                                <a class="nav-link active" aria-controls="home" data-toggle="tab" role="tab" aria-selected="true" title="Giới thiệu" href="#Gioi_thieu">Giới thiệu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-controls="home" data-toggle="tab" role="tab" aria-selected="true" title="Khám phá 3D" href="#Kham_pha_3d">Khám phá 3D</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-controls="home" data-toggle="tab" role="tab" aria-selected="true" title="Video" href="#Tab_Video">Video</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-controls="home" data-toggle="tab" role="tab" aria-selected="true" title="Thư viện ảnh" href="#Tab_Image">Thư viện ảnh</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="Gioi_thieu" class="tab-pane fade show active" role="tabpanel">
+                                <div class="tab-content-container col-md-10 flex-item">
+                                        <div class="tab_pane_img">
+                                            <a href="#"><img src="/images/GioithieuQuangNam.png"></a>
+                                        </div>
+                                        <div class="tab_pane_content">
+                                            <div class="tab_pane_title">
+                                                <span>Về Quảng Nam</span>
+                                            </div>
+                                            <div class="tab_pane_summary">
+                                                <p> Tỉnh Quảng Nam nằm ở trung bộ của Việt Nam (từ 14057'10'' đến 16003'50'' vĩ độ Bắc, 107012'50'' đến 108044'20'' kinh độ Đông), cách thủ đô Hà Nội 860 km về phía Nam, cách thành phố Hồ Chí Minh 865 km về phía Bắc. Phía Bắc giáp: Tỉnh Thừa Thiên Huế và thành phố Đà Nẵng. Phía Nam giáp: tỉnh Quảng Ngãi. Phía Tây giáp: tỉnh Kon Tum và nước Cộng hòa Dân chủ Nhân dân Lào. Phía Đông giáp: biển Đông.</p>
+                                                <p> Quảng Nam nằm ở trung tâm của khu vực Đông Nam Á, với bán kính 3.200 km bao phủ khu vực Nam Trung Quốc, Hồng Kông, Đài Loan về phía Bắc; Singapore, Malaysia về phía Nam; Philippine, Brunei về phía Đông; Myanmar, Thái Lan, Lào, Campuchia về phía Tây.</p>
+                                                <p>Tỉnh Quảng Nam gồm 18 đơn vị trong đó: có 15 huyện, 01 thị xã và 02 thành phố. 09 huyện miền núi: Đông Giang, Tây Giang, Nam Giang, Phước Sơn, Hiệp Đức, Tiên Phước, Nam Trà My, Nông Sơn và Bắc Trà My; 06 huyện đồng bằng: Đại Lộc, Duy Xuyên, Thăng Bình, Quế Sơn, Núi Thành và Phú Ninh; 01 thị xã: Điện Bàn; 02 Thành phố: Tam Kỳ và Hội An; Tỉnh lỵ: Thành phố Tam Kỳ.</p>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div id="Kham_pha_3d" class="tab-pane fade " role="tabpanel">
+                                <div class="tab-content-container col-md-10">
+                                    <div class="tab_pane_title">
+                                        <a href="#">Khám phá 3D</a>
+                                        <div class="count">
+                                            <span>23 điểm tham quan</span>
+                                        </div>
+                                    </div>
+                                    <div class="tab_pane_content">
+                                        <ul class="vr3d-gallery">
+                                            <li class="vr3d">
+                                                <a href="#">
+                                                    <div class="vr3d-img">
+                                                        <div class="background-icon-360">
+                                                            <div class="icon360"></div>
+                                                        </div>
+                                                        <img src="/images/PhoCoHoiAn3D.png" class="img360">
+                                                    </div>
+                                                    <div class="vr3d-title">
+                                                        <span class="vr3dtitle vr3dtitle-1">Phố cổ Hội An</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="vr3d">
+                                                <a href="#">
+                                                    <div class="vr3d-img">
+                                                        <div class="background-icon-360">
+                                                            <div class="icon360"></div>
+                                                        </div>
+                                                        <img src="/images/HoiQuanTrieuChau.png" class="img360">
+                                                    </div>
+                                                    <div class="vr3d-title">
+                                                        <span class="vr3dtitle vr3dtitle-2">Hội quán Triều Châu</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="vr3d">
+                                                <a href="#">
+                                                    <div class="vr3d-img">
+                                                        <div class="background-icon-360">
+                                                            <div class="icon360"></div>
+                                                        </div>
+                                                        <img src="/images/NhaNgheThuat.png" class="img360">
+                                                    </div>
+                                                    <div class="vr3d-title">
+                                                        <span class="vr3dtitle vr3dtitle-3">Nhà biểu diễu nghệ thuật cổ truyền</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="vr3d">
+                                                <a href="#">
+                                                    <div class="vr3d-img">
+                                                        <div class="background-icon-360">
+                                                            <div class="icon360"></div>
+                                                        </div>
+                                                        <img src="/images/BaoTangMauDich.png" class="img360">
+                                                    </div>
+                                                    <div class="vr3d-title">
+                                                        <span class="vr3dtitle vr3dtitle-4">Bảo tàng gốm sứ Mậu Dịch</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="vr3d">
+                                                <a href="#">
+                                                    <div class="vr3d-img">
+                                                        <div class="background-icon-360">
+                                                            <div class="icon360"></div>
+                                                        </div>
+                                                        <img src="/images/NhaCoTocTran.png" class="img360">
+                                                    </div>
+                                                    <div class="vr3d-title">
+                                                        <span class="vr3dtitle vr3dtitle-5">Nhà cổ Tộc Trần</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="vr3d">
+                                                <a href="#">
+                                                    <div class="vr3d-img">
+                                                        <div class="background-icon-360">
+                                                            <div class="icon360"></div>
+                                                        </div>
+                                                        <img src="/images/ChuaOngHoiAn.png" class="img360">
+                                                    </div>
+                                                    <div class="vr3d-title">
+                                                        <span class="vr3dtitle vr3dtitle-6">Chùa ông Hội An</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="vr3d">
+                                                <a href="#">
+                                                    <div class="vr3d-img">
+                                                        <div class="background-icon-360">
+                                                            <div class="icon360"></div>
+                                                        </div>
+                                                        <img src="/images/NhaTrungBayMySon.png" class="img360">
+                                                    </div>
+                                                    <div class="vr3d-title">
+                                                        <span class="vr3dtitle vr3dtitle-7">Nhà trưng bày Mỹ Sơn</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="vr3d">
+                                                <a href="#">
+                                                    <div class="vr3d-img">
+                                                        <div class="background-icon-360">
+                                                            <div class="icon360"></div>
+                                                        </div>
+                                                        <img src="/images/NhaCoTanKy.png" class="img360">
+                                                    </div>
+                                                    <div class="vr3d-title">
+                                                        <span class="vr3dtitle vr3dtitle-8">Nhà cổ Tân Kỳ</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Tab_Video" class="tab-pane fade" role="tabpanel">
+                                <div class="tab-content-container col-md-10">
+                                    <div class="tab_pane_title">
+                                        <a href="#">Video</a>
+                                        <div class="count">
+                                            <span>8 Video</span>
+                                        </div>
+                                    </div>
+                                    <div class="tab_pane_content">
+                                        <ul class="video-gallery">
+                                            <li class="video-library">
+                                                <div class="link">
+                                                    <div class="gallery-video">
+                                                        <div data-fancybox href="https://www.youtube.com/watch?v=LhHpy-oqUXY" class="fancybox-video"> 
+                                                            <div class="video-content">
+                                                                <img class="video-thumb" src="/images/VideoThumb1.jpg" /> 
+                                                                <div class="background-icon-video">
+                                                                    <div class="iconvid"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="video-title">
+                                                                <span class="video-title">Đô thị Cổ Hội An</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="video-library">
+                                                <div class="link">
+                                                    <div class="gallery-video">
+                                                        <div data-fancybox href="https://www.youtube.com/watch?v=rf1vKYVU_x4" class="fancybox-video"> 
+                                                            <div class="video-content">
+                                                                <img class="video-thumb" src="/images/VideoThumb2.png" /> 
+                                                                <div class="background-icon-video">
+                                                                    <div class="iconvid"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="video-title">
+                                                                <span class="video-title">Khu đền tháp Mỹ Sơn</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="video-library">
+                                                <div class="link">
+                                                    <div class="gallery-video">
+                                                        <div data-fancybox href="https://www.youtube.com/watch?v=fLbj-_bN4IQ" class="fancybox-video"> 
+                                                            <div class="video-content">
+                                                                <img class="video-thumb" src="/images/VideoThumb3.jpg" /> 
+                                                                <div class="background-icon-video">
+                                                                    <div class="iconvid"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="video-title">
+                                                                <span class="video-title">Quần thể Tượng đài Mẹ Việt Nam anh hùng và hồ Phú Ninh</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="video-library">
+                                                <div class="link">
+                                                    <div class="gallery-video">
+                                                        <div data-fancybox href="https://www.youtube.com/watch?v=Nzpi64blaZE" class="fancybox-video"> 
+                                                            <div class="video-content">
+                                                                <img class="video-thumb" src="/images/VideoThumb4.png" /> 
+                                                                <div class="background-icon-video">
+                                                                    <div class="iconvid"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="video-title">
+                                                                <span class="video-title">Ven biển Quảng Nam</span>
+                                                            </div>
+                                                        </d>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="video-library">
+                                                <div class="link">
+                                                    <div class="gallery-video">
+                                                        <div data-fancybox href="https://www.youtube.com/watch?v=vaP2l5wcIsc" class="fancybox-video"> 
+                                                            <div class="video-content">
+                                                                <img class="video-thumb" src="/images/VideoThumb5.jpg" /> 
+                                                                <div class="background-icon-video">
+                                                                    <div class="iconvid"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="video-title">
+                                                                <span class="video-title">Khám phá miền núi Quảng Nam</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="video-library">
+                                                <div class="link">
+                                                    <div class="gallery-video">
+                                                        <div data-fancybox href="https://www.youtube.com/watch?v=2feE5W9JFRU" class="fancybox-video"> 
+                                                            <div class="video-content">
+                                                                <img class="video-thumb" src="/images/VideoThumb6.jpg" /> 
+                                                                <div class="background-icon-video">
+                                                                    <div class="iconvid"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="video-title">
+                                                                <span class="video-title">Khu dự trữ sinh quyển thế giới Cù Lao Chàm</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="video-library">
+                                                <div class="link">
+                                                    <div class="gallery-video">
+                                                        <div data-fancybox href="https://www.youtube.com/watch?v=CZQpS2VYqTw" class="fancybox-video">  
+                                                            <div class="video-content">
+                                                                <img class="video-thumb" src="/images/VideoThumb7.jpg" /> 
+                                                                <div class="background-icon-video">
+                                                                    <div class="iconvid"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="video-title">
+                                                                <span class="video-title">Làng đúc đồng Phước Kiều</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="video-library">
+                                                <div class="link">
+                                                    <div class="gallery-video">
+                                                        <div data-fancybox href="https://www.youtube.com/watch?v=XeNMPnf9LWY" class="fancybox-video"> 
+                                                            <div class="video-content">
+                                                                <img class="video-thumb" src="/images/VideoThumb8.jpg" /> 
+                                                                <div class="background-icon-video">
+                                                                    <div class="iconvid"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="video-title">
+                                                                <span class="video-title">Quảng Nam - Điểm đến du lịch xanh</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Tab_Image" class="tab-pane fade" role="tabpanel">
+                                <div class="tab-content-container col-md-10">
+                                    <div class="tab_pane_title">
+                                        <a href="#">Album</a>
+                                        <div class="count">
+                                            <span>2 Album</span>
+                                        </div>
+                                    </div>
+                                    <div class="tab_pane_content">
+                                        <ul class="image-gallery">
+                                            <li class="image-library">
+                                                <div class="link">
+                                                    <div class="gallery-img">
+                                                        <div data-fancybox="gallery-1" href="/images/BienCuaDai.png" class="fancybox-img"> <!-- Main Picture -->
+                                                            <div class="img-content">
+                                                                <img class="image-in" src="/images/BienCuaDai.png" /> <!-- Thumb Picture -->
+                                                                <div class="background-icon-image">
+                                                                    <div class="iconimg"></div>
+                                                                </div> 
+                                                            </div>
+                                                            <div class="image-title">
+                                                                <a href="#" class="video-title">Bãi biển Cửa Đại</a>
+                                                            </div>
+                                                        </div>
+                                                        <div style="display:none">
+                                                            <a data-fancybox="gallery-1" href="/images/test1.jpg"> <!-- Sub Picture -->
+                                                                <img class="image-in" src="/images/test1.jpg" /> <!-- Thumb Sub Picture -->
+                                                            </a>
+                                                            <a data-fancybox="gallery-1" href="/images/test2.jpg">
+                                                                <img class="image-in" src="/images/test2.jpg" />
+                                                            </a>
+                                                            <a data-fancybox="gallery-1" href="/images/test3.jpg">
+                                                                <img class="image-in" src="/images/test3.jpg" />
+                                                            </a>
+                                                            <a data-fancybox="gallery-1" href="/images/test4.jpg">
+                                                                <img class="image-in" src="/images/test4.jpg" />
+                                                            </a>
+                                                        </div>                                                  
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="image-library">
+                                                <div class="link">
+                                                    <div class="gallery-img">
+                                                        <div data-fancybox="gallery-2" href="/images/test11.jpg" class="fancybox-img"> <!-- Main Picture -->
+                                                            <div class="img-content">
+                                                                <img class="image-in" src="/images/test11.jpg" />  <!-- Thumb Picture -->
+                                                                <div class="background-icon-image">
+                                                                    <div class="iconimg"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="image-title">
+                                                                <span class="video-title">Cuộc thi ảnh tháng 11 năm 2018</span>
+                                                            </div>
+                                                        </div>
+                                                        <div style="display:none">
+                                                            <a data-fancybox="gallery-2" href="/images/test6.jpg"> <!-- Sub Picture -->
+                                                                <img class="image-in" src="/images/test6.jpg" /> <!-- Thumb Sub Picture -->
+                                                            </a>
+                                                            <a data-fancybox="gallery-2" href="/images/test7.jpg">
+                                                                <img class="image-in" src="/images/test7.jpg" />
+                                                            </a>
+                                                            <a data-fancybox="gallery-2" href="/images/test8.jpg">
+                                                                <img class="image-in" src="/images/test8.jpg" />
+                                                            </a>
+                                                            <a data-fancybox="gallery-2" href="/images/test9.jpg">
+                                                                <img class="image-in" src="/images/test9.jpg" />
+                                                            </a>
+                                                        </div>                                                  
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Explore Section  -->
+
+        <!-- Begin Utilities Section  -->
+        <section class="section-utilities">
+            <div class="container">
+                <div class="utilities-option">
+                    <div class="col-md-10 utilities">
+                            <ul class="utilities-list">
+                                <li>
+                                    <a href="#">
+                                        <div class="icon-option"><img src="/icons/TourDuLich.png"></div>
+                                        <span>Tour du lịch</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="icon-option"><img src="/icons/KhachSan.png"></div>
+                                        <span>Khách sạn</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="icon-option"><img src="/icons/NhaHang.png"></div>
+                                        <span>Nhà hàng</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="icon-option"><img src="/icons/GiaiTri.png"></div>
+                                        <span>Giải trí</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="icon-option"><img src="/icons/MuaSam.png"></div>
+                                        <span>Mua sắm</span>
+                                    </a>
+                                </li>
+                            </ul>
+                    </div>
+                </div>  
+                <div class="utilities-content">
+                    <div class="utilities-main">
+                        <div class="utilities-list">
+                            <ul>
+                                <li>
+                                    <div class="utilities-news">
+                                        <a class="" href="#">
+                                            <img src="/images/MiQuangnam.png" class="utilities-img">
+                                        </a>
+                                        <div class="utilities-description">
+                                            <span class="utilities-chuyenmuc"><a href="#">Ẩm thực</a></span>
+                                            <div class="utilities-link">
+                                                <span class="utilities-title">5 quán mì Quảng ngon nức tiếng ở Quảng nam</span>
+                                            </div>
+                                        </div>
+                                        <div class="utilities-caption">
+                                            <span class="utilities-chuyenmuc"><a href="#">Ẩm thực</a></span>
+                                            <div class="utilities-link">
+                                                <span class="utilities-title">5 quán mì Quảng ngon nức tiếng ở Quảng nam</span>
+                                            </div>
+                                            <div class="utilities-summary">
+                                                <span class="utilities-content">Nước Mót Hội An còn có tên gọi khác là “nước chanh sả” hay “nước sang chảnh” là loại nước uống thảo mộc khá nổi tiếng tại Hội An mà ai đi qua đây cũng đều mua một ly hoặc ít nhất có một tấm ảnh check-in cùng ly nước Mót.
+                                                    Nguyên liệu chính của nước Mót là các loại thảo mộc như hoa cúc, la hán quả, lá trà xanh, quế, hạ khô thảo, cam thảo, kim ngân hoa, chanh, đường, mật ong, lá sen khô, thanh quế và sả.</span>
+                                            </div>
+                                            <div class="btn-event">                                        
+                                                <a class="event-details" href="#" target="_blank"><span>Xem chi tiết</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="utilities-news">
+                                        <a class="" href="#">
+                                            <img src="/images/Shilla.png" class="utilities-img">
+                                        </a>
+                                        <div class="utilities-description">
+                                            <span class="utilities-chuyenmuc"><a href="#">Lưu trú</a></span>
+                                            <div class="utilities-link">
+                                                <span class="utilities-title">Shilla Monogram Quảng Nam Đà Nẵng – Điểm đến mới mẻ cho du khách đến thăm và du lịch</span>
+                                            </div>
+                                        </div>
+                                        <div class="utilities-caption">
+                                            <span class="utilities-chuyenmuc"><a href="#">Lưu trú</a></span>
+                                            <div class="utilities-link">
+                                                <span class="utilities-title">Shilla Monogram Quảng Nam Đà Nẵng – Điểm đến mới mẻ cho du khách đến thăm và du lịch</span>
+                                            </div>
+                                            <div class="utilities-summary">
+                                                <span class="utilities-content">Nước Mót Hội An còn có tên gọi khác là “nước chanh sả” hay “nước sang chảnh” là loại nước uống thảo mộc khá nổi tiếng tại Hội An mà ai đi qua đây cũng đều mua một ly hoặc ít nhất có một tấm ảnh check-in cùng ly nước Mót.
+                                                    Nguyên liệu chính của nước Mót là các loại thảo mộc như hoa cúc, la hán quả, lá trà xanh, quế, hạ khô thảo, cam thảo, kim ngân hoa, chanh, đường, mật ong, lá sen khô, thanh quế và sả.</span>
+                                            </div>
+                                            <div class="btn-event">                                        
+                                                <a class="event-details" href="#" target="_blank"><span>Xem chi tiết</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="utilities-news">
+                                        <a class="" href="#">
+                                            <img src="/images/NuocMot.png" class="utilities-img">
+                                        </a>
+                                        <div class="utilities-description">
+                                            <span class="utilities-chuyenmuc"><a href="#">Ẩm thực</a></span>
+                                            <div class="utilities-link">
+                                                <span class="utilities-title">Nước uống đặc sản Hội An trứ danh - Mót</span>
+                                            </div>
+                                        </div>
+                                        <div class="utilities-caption">
+                                            <span class="utilities-chuyenmuc"><a href="#">Ẩm thực</a></span>
+                                            <div class="utilities-link">
+                                                <span class="utilities-title">Nước uống đặc sản Hội An trứ danh - Mót</span>
+                                            </div>
+                                            <div class="utilities-summary">
+                                                <span class="utilities-content">Nước Mót Hội An còn có tên gọi khác là “nước chanh sả” hay “nước sang chảnh” là loại nước uống thảo mộc khá nổi tiếng tại Hội An mà ai đi qua đây cũng đều mua một ly hoặc ít nhất có một tấm ảnh check-in cùng ly nước Mót.
+                                                    Nguyên liệu chính của nước Mót là các loại thảo mộc như hoa cúc, la hán quả, lá trà xanh, quế, hạ khô thảo, cam thảo, kim ngân hoa, chanh, đường, mật ong, lá sen khô, thanh quế và sả.</span>
+                                            </div>
+                                            <div class="btn-event">                                        
+                                                <a class="event-details" href="#" target="_blank"><span>Xem chi tiết</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="utilities-news">
+                                        <a class="" href="#">
+                                            <img src="/images/DuLichHoiAn.png" class="utilities-img">
+                                        </a>
+                                        <div class="utilities-description">
+                                            <span class="utilities-chuyenmuc"><a href="#">Du lịch</a></span>
+                                            <div class="utilities-link">
+                                                <span class="utilities-title">Nằm lòng 5 bí kíp du lịch Hội An tự túc để có chuyến đi tuyệt vời và đầy kỷ niệm</span>
+                                            </div>
+                                        </div>
+                                        <div class="utilities-caption">
+                                            <span class="utilities-chuyenmuc"><a href="#">Du lịch</a></span>
+                                            <div class="utilities-link">
+                                                <span class="utilities-title">Nằm lòng 5 bí kíp du lịch Hội An tự túc để có chuyến đi tuyệt vời và đầy kỷ niệm</span>
+                                            </div>
+                                            <div class="utilities-summary">
+                                                <span class="utilities-content">Nước Mót Hội An còn có tên gọi khác là “nước chanh sả” hay “nước sang chảnh” là loại nước uống thảo mộc khá nổi tiếng tại Hội An mà ai đi qua đây cũng đều mua một ly hoặc ít nhất có một tấm ảnh check-in cùng ly nước Mót.
+                                                    Nguyên liệu chính của nước Mót là các loại thảo mộc như hoa cúc, la hán quả, lá trà xanh, quế, hạ khô thảo, cam thảo, kim ngân hoa, chanh, đường, mật ong, lá sen khô, thanh quế và sả.</span>
+                                            </div>
+                                            <div class="btn-event">                                        
+                                                <a class="event-details" href="#" target="_blank"><span>Xem chi tiết</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="utilities-news">
+                                        <a class="" href="#">
+                                            <img src="/images/LongDenDuLich.png" class="utilities-img">
+                                        </a>
+                                        <div class="utilities-description">
+                                            <span class="utilities-chuyenmuc"><a href="#">Mua sắm</a></span>
+                                            <div class="utilities-link">
+                                                <span class="utilities-title">Lồng đèn Hội An - nét đặc sắc của mỹ thuật ứng dụng</span>
+                                            </div>
+                                        </div>
+                                        <div class="utilities-caption">
+                                            <span class="utilities-chuyenmuc"><a href="#">Mua sắm</a></span>
+                                            <div class="utilities-link">
+                                                <span class="utilities-title">Lồng đèn Hội An - nét đặc sắc của mỹ thuật ứng dụng</span>
+                                            </div>
+                                            <div class="utilities-summary">
+                                                <span class="utilities-content">Nước Mót Hội An còn có tên gọi khác là “nước chanh sả” hay “nước sang chảnh” là loại nước uống thảo mộc khá nổi tiếng tại Hội An mà ai đi qua đây cũng đều mua một ly hoặc ít nhất có một tấm ảnh check-in cùng ly nước Mót.
+                                                    Nguyên liệu chính của nước Mót là các loại thảo mộc như hoa cúc, la hán quả, lá trà xanh, quế, hạ khô thảo, cam thảo, kim ngân hoa, chanh, đường, mật ong, lá sen khô, thanh quế và sả.</span>
+                                            </div>
+                                            <div class="btn-event">                                        
+                                                <a class="event-details" href="#" target="_blank"><span>Xem chi tiết</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Utilities Section  -->
+
+        <!-- Begin News Section  -->
+        <section class="section-news">
+            <div class="container">
+                <div class="news">
+                    <h1 class="news-title">Tin tức</h1>
+                    <div class="row">
+                        <div class="main-news-container col-md-7">
+                            <div class="main-news-main">
+                                <div class="main-news-group">
+                                    <div class="img-main-news">
+                                        <a href="#" class="main-news-img"><img src="/images/News1.png" class="main-img"></a>
+                                    </div>
+                                    <div class="content-main-news">
+                                        <div class="main-news-title">
+                                            <a href="" class="main-news-link">Hơn 2,3 triệu khách quốc tế đến Việt Nam trong 10</a>
+                                        </div>
+                                        <div class="main-news-date">
+                                            <span class="news-date">22/06/2022</span>
+                                        </div>
+                                        <div class="main-news-summary">
+                                            <span class="news-summary">Báo cáo tình hình kinh tế - xã hội do Tổng cục Thống kê công bố cho biết từ tháng 1-10/2022, ước tính VN đón hơn 2,3 triệu lượt khách quốc tế. Con số này tuy đã tăng gấp 18,8 lần so với cùng kỳ năm trước nhưng vẫn giảm 83,7% so với cùng kỳ năm 2019 - khi chưa xảy ra dịch Covid-19. Riêng trong tháng 10, khách quốc tế đến VN đạt 484.400 lượt người, tăng 12,1% so với tháng trước và gấp 45,9 lần so với cùng kỳ 2021.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sub-news-container col-md-5">
+                            <div class="sub-news-main">
+                                <ul>
+                                    <li>
+                                        <div class="sub-news-group">
+                                            <div class="img-sub-news">
+                                                <a href="#" class="sub-news-img"><img src="/images/News1.png" class="sub-img"></a>
+                                            </div>
+                                            <div class="content-sub-news">
+                                                <div class="sub-news-title">
+                                                    <a href="" class="sub-news-link">Hơn 2,3 triệu khách quốc tế đến Việt Nam trong 10</a>
+                                                </div>
+                                                <div class="sub-news-date">
+                                                    <span class="news-date">22/06/2022</span>
+                                                </div>
+                                                <div class="sub-news-summary">
+                                                    <span class="news-summary">Báo cáo tình hình kinh tế - xã hội do Tổng cục Thống kê công bố cho biết từ tháng 1-10/2022, ước tính VN đón hơn 2,3 triệu lượt khách quốc tế. Con số này tuy đã tăng gấp 18,8 lần so với cùng kỳ năm trước nhưng vẫn giảm 83,7% so với cùng kỳ năm 2019 - khi chưa xảy ra dịch Covid-19. Riêng trong tháng 10, khách quốc tế đến VN đạt 484.400 lượt người, tăng 12,1% so với tháng trước và gấp 45,9 lần so với cùng kỳ 2021.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="sub-news-group">
+                                            <div class="img-sub-news">
+                                                <a href="#" class="sub-news-img"><img src="/images/News1.png" class="sub-img"></a>
+                                            </div>
+                                            <div class="content-sub-news">
+                                                <div class="sub-news-title">
+                                                    <a href="" class="sub-news-link">Hơn 2,3 triệu khách quốc tế đến Việt Nam trong 10</a>
+                                                </div>
+                                                <div class="sub-news-date">
+                                                    <span class="news-date">22/06/2022</span>
+                                                </div>
+                                                <div class="sub-news-summary">
+                                                    <span class="news-summary">Báo cáo tình hình kinh tế - xã hội do Tổng cục Thống kê công bố cho biết từ tháng 1-10/2022, ước tính VN đón hơn 2,3 triệu lượt khách quốc tế. Con số này tuy đã tăng gấp 18,8 lần so với cùng kỳ năm trước nhưng vẫn giảm 83,7% so với cùng kỳ năm 2019 - khi chưa xảy ra dịch Covid-19. Riêng trong tháng 10, khách quốc tế đến VN đạt 484.400 lượt người, tăng 12,1% so với tháng trước và gấp 45,9 lần so với cùng kỳ 2021.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="sub-news-group">
+                                            <div class="img-sub-news">
+                                                <a href="#" class="sub-news-img"><img src="/images/News1.png" class="sub-img"></a>
+                                            </div>
+                                            <div class="content-sub-news">
+                                                <div class="sub-news-title">
+                                                    <a href="" class="sub-news-link">Hơn 2,3 triệu khách quốc tế đến Việt Nam trong 10</a>
+                                                </div>
+                                                <div class="sub-news-date">
+                                                    <span class="news-date">22/06/2022</span>
+                                                </div>
+                                                <div class="sub-news-summary">
+                                                    <span class="news-summary">Báo cáo tình hình kinh tế - xã hội do Tổng cục Thống kê công bố cho biết từ tháng 1-10/2022, ước tính VN đón hơn 2,3 triệu lượt khách quốc tế. Con số này tuy đã tăng gấp 18,8 lần so với cùng kỳ năm trước nhưng vẫn giảm 83,7% so với cùng kỳ năm 2019 - khi chưa xảy ra dịch Covid-19. Riêng trong tháng 10, khách quốc tế đến VN đạt 484.400 lượt người, tăng 12,1% so với tháng trước và gấp 45,9 lần so với cùng kỳ 2021.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="sub-news-group">
+                                            <div class="img-sub-news">
+                                                <a href="#" class="sub-news-img"><img src="/images/News1.png" class="sub-img"></a>
+                                            </div>
+                                            <div class="content-sub-news">
+                                                <div class="sub-news-title">
+                                                    <a href="" class="sub-news-link">Hơn 2,3 triệu khách quốc tế đến Việt Nam trong 10</a>
+                                                </div>
+                                                <div class="sub-news-date">
+                                                    <span class="news-date">22/06/2022</span>
+                                                </div>
+                                                <div class="sub-news-summary">
+                                                    <span class="news-summary">Báo cáo tình hình kinh tế - xã hội do Tổng cục Thống kê công bố cho biết từ tháng 1-10/2022, ước tính VN đón hơn 2,3 triệu lượt khách quốc tế. Con số này tuy đã tăng gấp 18,8 lần so với cùng kỳ năm trước nhưng vẫn giảm 83,7% so với cùng kỳ năm 2019 - khi chưa xảy ra dịch Covid-19. Riêng trong tháng 10, khách quốc tế đến VN đạt 484.400 lượt người, tăng 12,1% so với tháng trước và gấp 45,9 lần so với cùng kỳ 2021.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Utilities Section  -->
+
+        <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/jquery.sliderPro.min.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+        <script type="text/javascript" src="js/moment.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
+        <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+        <script type="text/javascript" src="js/jquery.smartmenus.min.js"></script>
+        <script type="text/javascript" src="js/jquery.smartmenus.bootstrap-4.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js" integrity="sha512-lteuRD+aUENrZPTXWFRPTBcDDxIGWe5uu0apPEn+3ZKYDwDaEErIK9rvR0QzUGmUQ55KFE2RqGTVoZsKctGMVw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script type="text/javascript" src="js/jquery.simpleWeather.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/Trangchu.js"></script>
+    </body>
+</html>

@@ -1,0 +1,2 @@
+Kích thước màn hình 1920x827px
+Nhưng phần @media chỉ được để .container có width chứa 1650px.

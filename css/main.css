@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url(/fonts/Mulish/Mulish-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Mulish SemiBold';
+    src: url(/fonts/Mulish/static/Mulish-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Playfair Display Semi';
+    src: url(/fonts/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf);
+    font-weight: 600;
+}
+
+a,
+a:hover,
+a:visited,
+a:focus {
+    text-decoration: none;
+    color: unset
+}
+
+body {
+    font-family: 'Mulish';
+    font-style: normal;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+}
+
+h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+h3 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+h4 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+h5 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h6 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+ul, li {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+img {
+    object-fit: contain;
+    object-position: 50% 50%;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (min-width: 1921px) {
+    .container {
+        max-width: 1650px;
+    }
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1730px) {
+    .container {
+        max-width: 1650px;
+    }
+}
+
+@media screen and (max-width: 1729px) and (min-width: 1367px) {
+    .container {
+        max-width: calc(100% - 80px);
+    }
+}
+
+@media screen and (max-width: 1366px) and (min-width: 1117px) {
+    .container {
+        max-width: 1300px;
+    }
+}
+
+.container {
+    width: 100%;
+}
